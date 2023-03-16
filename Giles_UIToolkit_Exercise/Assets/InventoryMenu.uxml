@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=6eff2581beec14b42b4180f0c085d306&amp;type=3#style" />
+    <ui:VisualElement name="background" style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement name="inventoryMenu" style="height: 695px; width: 1165px; background-color: rgba(87, 161, 221, 0); background-image: url(&apos;project://database/Assets/Custom%20Images/InventoryMenuUI_JanJustice%201.png?fileID=21300000&amp;guid=f86036a60bad55943b2fcd18c0f30a60&amp;type=3#InventoryMenuUI_JanJustice 1&apos;); align-items: flex-start; justify-content: flex-end;">
+            <ui:VisualElement name="itemBackground" style="width: 1093px; height: 456px; left: 33px; top: -68px; align-items: center; justify-content: flex-start; flex-direction: row;">
+                <ui:VisualElement name="itemOne" style="height: 420px; width: 220px; background-color: rgba(29, 29, 29, 0.39); left: 33px; top: auto; flex-grow: 0; flex-direction: column; flex-wrap: nowrap; align-items: center;">
+                    <ui:VisualElement name="image" style="height: 240px; width: 147px; background-color: rgba(255, 255, 255, 0); top: 15px; background-image: url(&apos;project://database/Assets/Custom%20Images/BasicBroom.png?fileID=21300000&amp;guid=9e4bea398e8e5ee4f93d6a592f9597c0&amp;type=3#BasicBroom&apos;); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    <ui:Label text="ITEM ONE" display-tooltip-when-elided="true" name="itemTitle" style="top: 25px; font-size: 25px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+                    <ui:Button text="STATS" display-tooltip-when-elided="true" name="statsButton" class="statsbuttonstyle" />
+                    <ui:Button text="EQUIP" display-tooltip-when-elided="true" name="equipButton" class="equipbuttonstyle" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemTwo" style="height: 420px; width: 220px; background-color: rgba(29, 29, 29, 0.39); left: 79px; top: auto; flex-grow: 0; flex-direction: column; flex-wrap: nowrap; align-items: center;">
+                    <ui:VisualElement name="image" style="height: 240px; width: 147px; background-color: rgba(255, 255, 255, 0); top: 15px; background-image: url(&apos;project://database/Assets/Custom%20Images/Dustpan.png?fileID=21300000&amp;guid=08646685e0686684f87405326ae3971f&amp;type=3#Dustpan&apos;); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    <ui:Label text="ITEM TWO" display-tooltip-when-elided="true" name="itemTitle" style="top: 25px; font-size: 25px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+                    <ui:Button text="STATS" display-tooltip-when-elided="true" name="statsButton" class="statsbuttonstyle" />
+                    <ui:Button text="EQUIP" display-tooltip-when-elided="true" name="equipButton" class="equipbuttonstyle" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemThree" style="height: 420px; width: 220px; background-color: rgba(29, 29, 29, 0.39); left: 131px; top: auto; flex-grow: 0; flex-direction: column; flex-wrap: nowrap; align-items: center;">
+                    <ui:VisualElement name="image" style="height: 240px; width: 147px; background-color: rgba(255, 255, 255, 0); top: 15px; background-image: url(&apos;project://database/Assets/Custom%20Images/BasicBroom.png?fileID=21300000&amp;guid=9e4bea398e8e5ee4f93d6a592f9597c0&amp;type=3#BasicBroom&apos;); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    <ui:Label text="ITEM THREE" display-tooltip-when-elided="true" name="itemTitle" style="top: 25px; font-size: 25px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+                    <ui:Button text="STATS" display-tooltip-when-elided="true" name="statsButton" class="statsbuttonstyle" />
+                    <ui:Button text="EQUIP" display-tooltip-when-elided="true" name="equipButton" class="equipbuttonstyle" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemFour" style="height: 420px; width: 220px; background-color: rgba(29, 29, 29, 0.39); left: 183px; top: auto; flex-grow: 0; flex-direction: column; flex-wrap: nowrap; align-items: center;">
+                    <ui:VisualElement name="image" style="height: 240px; width: 147px; background-color: rgba(255, 255, 255, 0); top: 15px; background-image: url(&apos;project://database/Assets/Custom%20Images/Dustpan.png?fileID=21300000&amp;guid=08646685e0686684f87405326ae3971f&amp;type=3#Dustpan&apos;); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    <ui:Label text="ITEM FOUR" display-tooltip-when-elided="true" name="itemTitle" style="top: 25px; font-size: 25px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+                    <ui:Button text="STATS" display-tooltip-when-elided="true" name="statsButton" class="statsbuttonstyle" />
+                    <ui:Button text="EQUIP" display-tooltip-when-elided="true" name="equipButton" class="equipbuttonstyle" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="BACK TO GAME" display-tooltip-when-elided="true" name="backButton" class="backbuttonstyle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
